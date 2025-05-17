@@ -1,0 +1,21 @@
+import jwt from "jsonwebtoken";
+
+const authSeller = (req, res, next) => {
+    const { sellerToken } = req.cookies;
+    if (!sellerToken) {
+        return res.status(401).json({ success: false, message: "Unauthorized" });
+    }
+    try {
+        const tokenDecoded = jwt.verify(sellerToken, process.env.JWT_SECRET);
+        if (tokenDecoded.email === process.env.SELLER_EMAIL) {
+            req.seller = tokenDecoded;
+            next();
+        } else {
+            return res.status(401).json({ success: false, message: "Unauthorized" });
+        }
+    } catch (error) {
+        return res.status(401).json({ success: false, message: "Unauthorized" });
+    }
+}
+
+export default authSeller;
