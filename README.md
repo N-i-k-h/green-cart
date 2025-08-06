@@ -9,7 +9,7 @@ A modern full-stack grocery e-commerce web application focused on fresh produce 
 ### 👤 User Panel
 
 * ✅ Register & Login with secure authentication
-* 🍆 Browse Products by Category (Vegetables, Fruits, etc.)
+* 🥬 Browse Products by Category (Vegetables, Fruits, etc.)
 * 🔍 Product Search & Filtering
 * ➕ Add to Cart & Order Placement
 * 📅 View Order History
@@ -110,6 +110,7 @@ Built by **Nikhil Kashyap Kn**
 Have suggestions or issues? Feel free to raise an issue or connect.
 
 ---
+
 
 
 
