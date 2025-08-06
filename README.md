@@ -111,8 +111,5 @@ Have suggestions or issues? Feel free to raise an issue or connect.
 
 ---
 
-## ✨ License
-
-MIT License © 2025
 
 
