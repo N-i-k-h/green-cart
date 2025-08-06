@@ -1,97 +1,86 @@
-# 🛒 Green Cart
+# 🛒 GreenCart – E-Commerce Platform for Fresh Produce
 
-Green Cart is a modern, user-friendly e-commerce platform designed for fresh grocery and vegetable shopping. It features a smooth UI/UX experience, user and seller flows, and AI-powered components for smarter shopping.
+GreenCart is a modern full-stack web application tailored for grocery shopping, focusing on fresh produce like vegetables, fruits, and more. It offers a smooth experience for both **users** and **sellers**, with login/register flows, product browsing, order management, and admin product uploads.
 
----
+## 📸 Screenshots
 
-## 🔥 Features
+### 🏠 Homepage
+![Homepage](./client/images/Screenshot%202025-08-06%20222603.png)
 
-- 🧑‍💼 User & Seller authentication (Login/Register)
-- 📦 Product browsing by categories (vegetables, fruits, dairy, etc.)
-- 🛒 Add to cart, order placement
-- 📊 Seller dashboard to manage listings
-- 🔍 Search and filter support
-- ⚡ Fast performance with Vite + React
-- 🔐 JWT-based secure API
-- 💬 AI support for suggestions and first-aid (Pet Assistant coming soon)
+### 🥕 Vegetables Page
+![Vegetables Page](./client/images/Screenshot%202025-08-06%20222657.png)
 
----
+### 🔍 Product Detail
+![Product Detail](./client/images/Screenshot%202025-08-06%20222716.png)
 
-## 🖼️ Screenshots
+### 🔐 Login Page
+![Login Page](./client/images/Screenshot%202025-08-06%20222818.png)
 
-### 🌱 Home Page
-![Home](./client/public/screenshots/Screenshot-2025-08-06-222603.png)
+### 👨‍🌾 Admin Product Upload
+![Admin Upload](./client/images/Screenshot%202025-08-06%20222848.png)
 
----
-
-### 🧑‍🌾 Seller Dashboard
-![Dashboard](./client/public/screenshots/Screenshot-2025-08-06-222657.png)
+### 🧾 Checkout / Order Page
+![Checkout](./client/images/Screenshot%202025-08-06%20223305.png)
 
 ---
 
-### 🛍️ Product Listing (Vegetables)
-![Products](./client/public/screenshots/Screenshot-2025-08-06-222716.png)
+## 🧩 Features
+
+### 👤 User
+- Register/Login
+- Browse by categories (vegetables, fruits, etc.)
+- View detailed product pages
+- Add to cart and checkout
+- View past orders
+
+### 👨‍🌾 Seller (Admin)
+- Secure admin login
+- Upload new products with details
+- Manage inventory
+- View customer orders
 
 ---
 
-### 🛒 Cart View
-![Cart](./client/public/screenshots/Screenshot-2025-08-06-222818.png)
+## 🛠️ Tech Stack
 
----
-
-### 🔐 Login/Register Page
-![Login](./client/public/screenshots/Screenshot-2025-08-06-222848.png)
-
----
-
-### 📱 Responsive UI (Mobile Preview)
-![Mobile](./client/public/screenshots/Screenshot-2025-08-06-223305.png)
-
----
-
-## 🚀 Tech Stack
-
-**Frontend:**
-- React.js + Vite
+### Frontend
+- React.js (with Vite)
 - Tailwind CSS
 - Axios
+- React Router DOM
 
-**Backend:**
-- Node.js
-- Express.js
-- MongoDB + Mongoose
-
-**Authentication:**
-- JWT
-- Bcrypt
-
-**AI Integration:**
-- Groq / HuggingFace API (for Pet Assistant)
+### Backend
+- Node.js + Express.js
+- MongoDB with Mongoose
+- JWT Authentication
+- Multer (for product images)
 
 ---
 
-## 🛠️ Setup Instructions
+## 🚀 Setup Instructions
 
-### 🔧 Prerequisites
+1. **Clone the Repository**
+git clone https://github.com/your-username/greencart.git
+cd greencar
 
-- Node.js
-- MongoDB
-- Git
-
-### 🚚 Clone Repo
-
-
-git clone https://github.com/N-i-k-h/green-cart.git
-cd green-cart
-
-start Backend
+Install dependencies 
+# Backend
 cd backend
 npm install
-npm run dev
 
-start Frontend 
+# Frontend
 cd ../client
 npm install
+
+Run App
+# Run backend
+cd backend
+npm run dev
+
+# Run frontend
+cd ../client
 npm run dev
 
 ```bash
+git clone https://github.com/your-username/greencart.git
+cd greencart
