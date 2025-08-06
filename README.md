@@ -45,25 +45,25 @@ A modern full-stack grocery e-commerce web application focused on fresh produce 
 
 ---
 
-## 🖼️ Screenshots
+## 🚤 Screenshots
 
-### 🏡 Homepage  
-![Homepage](client/public/images/homepage.png)
+### 🏠 Homepage
+![Homepage](./client/public/screenshots/Screenshot%202025-08-06%20222603.png)
 
-### 🥕 Vegetables Listing  
-![Vegetables](client/public/images/vegetables.png)
+### 🥕 Vegetables Listing
+![Vegetables Page](./client/public/screenshots/Screenshot%202025-08-06%20222657.png)
 
-### 🔍 Product Detail  
-![Product Detail](client/public/images/product-detail.png)
+### 🔍 Product Detail
+![Product Detail](./client/public/screenshots/Screenshot%202025-08-06%20222716.png)
 
-### 🔐 Login Page  
-![Login](client/public/images/login.png)
+### 🔐 Login Page
+![Login Page](./client/public/screenshots/Screenshot%202025-08-06%20222818.png)
 
-### 💼 Admin Product Upload  
-![Admin Upload](client/public/images/admin-upload.png)
+### 💼 Admin Product Upload
+![Admin Upload](./client/public/screenshots/Screenshot%202025-08-06%20222848.png)
 
-### 🧾 Checkout Page  
-![Checkout](client/public/images/checkout.png)
+### 📟 Checkout Page
+![Checkout](./client/public/screenshots/Screenshot%202025-08-06%20223305.png)
 
 ---
 
@@ -114,4 +114,5 @@ Have suggestions or issues? Feel free to raise an issue or connect.
 ## ✨ License
 
 MIT License © 2025
+
 
